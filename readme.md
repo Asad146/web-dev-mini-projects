@@ -7,7 +7,9 @@ This repository contains 5 beginner-friendly JavaScript projects created using H
 ## 📋 Projects
 
 ### 1. ✅ To Do List
+
 A basic task management app where users can:
+
 - Add, delete, and mark tasks as completed
 - Use localStorage to keep data persistent
 
@@ -16,7 +18,9 @@ A basic task management app where users can:
 ---
 
 ### 2. 📚 Quiz App
+
 A multiple-choice quiz application that:
+
 - Shows questions and options
 - Tracks score and gives final result
 - Prevents multiple answers
@@ -26,7 +30,9 @@ A multiple-choice quiz application that:
 ---
 
 ### 3. 🛍️ Ecommerce Store
+
 A small online store prototype with:
+
 - List of products
 - Add to cart & remove functionality
 - Total calculation
@@ -37,7 +43,9 @@ A small online store prototype with:
 ---
 
 ### 4. 💰 Expense Tracker
+
 A personal finance tool where users can:
+
 - Add income and expenses
 - View history and balance
 - Uses localStorage for data saving
@@ -47,7 +55,9 @@ A personal finance tool where users can:
 ---
 
 ### 5. 🌦️ Weather App
+
 A weather search tool that:
+
 - Takes city name input
 - Uses OpenWeatherMap API
 - Displays real-time weather (temperature, description, icon)
@@ -59,5 +69,8 @@ A weather search tool that:
 ## 🛠️ How to Run Locally
 
 1. Clone the repository:
+   ````bash
    ```bash
-   git clone https://github.com/Asad146/js-projects.git
+   git clone https://github.com/Asad146/web-dev-mini-projects.git
+
+   ````
