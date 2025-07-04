@@ -1,0 +1,122 @@
+/* 🌈 Our Castle's Color Theme */
+:root {
+    --primary: #6c5ce7;    /* Purple magic */
+    --dark: #2d3436;       /* Night sky */
+    --light: #f5f6fa;      /* Moonlight */
+    --danger: #ff7675;     /* Red alert! */
+  }
+  
+  /* 🏰 The Castle Walls (Body) */
+  body {
+    font-family: 'Comic Sans MS', cursive; /* Fun font! */
+    background-color: var(--dark); /* Night mode */
+    color: var(--light); /* White text */
+    transition: all 0.4s ease; /* Smooth color changes */
+    padding: 20px;
+  }
+  
+  /* 📦 The Treasure Chest (Container) */
+  .container {
+    max-width: 500px;
+    margin: 0 auto; /* Centers the chest */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(108, 92, 231, 0.3); /* Glowing purple shadow */
+  }
+  
+  /* ✨ The Castle Sign (Heading) */
+  h1 {
+    text-align: center;
+    color: var(--primary); /* Purple color */
+    text-shadow: 0 0 10px rgba(108, 92, 231, 0.5); /* Glow effect */
+    margin-bottom: 30px;
+  }
+  
+  /* ✏️ The Magic Writing Box (Input) */
+  #todo-input {
+    width: 70%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px 0 0 8px; /* Rounded left side */
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+  }
+  
+  /* 🎯 The Magic Button */
+  #add-task-btn {
+    width: 30%;
+    padding: 12px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 0 8px 8px 0; /* Rounded right side */
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  #add-task-btn:hover {
+    background-color: #5649c0; /* Darker purple on hover */
+  }
+  
+  /* 🧸 The Toy Shelf (Task List) */
+  #todo-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  /* 🧩 Each Toy (Task Item) */
+  #todo-list li {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 12px 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s;
+  }
+  
+  #todo-list li:hover {
+    background: rgba(255, 255, 255, 0.1); /* Slightly brighter on hover */
+    transform: translateX(5px); /* Moves a bit to the right */
+  }
+  
+  /* ✅ Completed Toys (Tasks) */
+  #todo-list li.completed span {
+    text-decoration: line-through; /* Crosses out text */
+    opacity: 0.6; /* Makes it look faded */
+  }
+  
+  /* 🗑️ The Trash Can (Delete Button) */
+  #todo-list li button {
+    background-color: var(--danger);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  #todo-list li button:hover {
+    background-color: #e84393; /* Pinker red on hover */
+    transform: scale(1.1); /* Grows a little */
+  }
+  
+  /* 🌓 Dark/Light Mode Toggle (Bonus!) */
+  .dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 100;
+  }
